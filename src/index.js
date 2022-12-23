@@ -1,14 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.css';
-import Counter from './components/counter';
+import React from "react";
+import ReactDOM from "react-dom";
+import reportWebVitals from "./reportWebVitals";
+import "bootstrap/dist/css/bootstrap.css";
+import Counters from "./components/counters";
+import App from "./App";
+//for decrement bbtn practise
+import DecApp from "./DecApp";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Counter />
+    <DecApp />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
